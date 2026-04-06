@@ -1,0 +1,10 @@
+{
+  "pesquisa_empresas": [
+    {"nome": "Empresa A", "economia_energia": 15, "reducao_lixo": 10},
+    {"nome": "Empresa B", "economia_energia": 25, "reducao_lixo": 20}
+  ],
+  "publico_geral": {
+    "total_entrevistados": 17,
+    "conhecem_ti_verde": 12
+  }
+}
