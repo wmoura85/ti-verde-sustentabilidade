@@ -1,10 +1,21 @@
 {
-  "pesquisa_empresas": [
-    {"nome": "Empresa A", "economia_energia": 15, "reducao_lixo": 10},
-    {"nome": "Empresa B", "economia_energia": 25, "reducao_lixo": 20}
-  ],
+  "empresas": {
+    "total_pesquisadas": 3,
+    "politica_reducao_energia": {
+      "com_politica": 2,
+      "sem_politica": 1
+    }
+  },
   "publico_geral": {
     "total_entrevistados": 17,
-    "conhecem_ti_verde": 12
+    "conhecem_ti_verde": {
+      "sim": 12,
+      "nao": 5
+    },
+    "destino_eletronicos": {
+      "lixo_comum": 4,
+      "gaveta": 10,
+      "reciclagem": 3
+    }
   }
 }
